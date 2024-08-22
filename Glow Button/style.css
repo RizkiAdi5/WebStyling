@@ -1,0 +1,30 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #f0f0f0; 
+}
+
+.shadow__btn {
+    padding: 12px 24px; 
+    border: none;
+    font-size: 16px; 
+    border-radius: 8px; 
+    letter-spacing: 3px; 
+    font-weight: 700;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    cursor: pointer;
+    background: rgb(0, 120, 255); 
+    box-shadow: 0 0 20px rgb(0, 120, 255); 
+    transition: box-shadow 0.4s ease-in-out; 
+}
+
+.shadow__btn:hover {
+    box-shadow: 0 0 8px rgb(0, 120, 255),
+                0 0 20px rgb(0, 120, 255),
+                0 0 40px rgb(0, 120, 255),
+                0 0 80px rgb(0, 120, 255); 
+}
